@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de colas</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <div class="grid">
+            <div class="row">
+                <div class="col text-center">
+                    <h1>Ejemplo de cola en js</h1>
+                </div>
+            </div>
+            <div class="row mt-5  text-center">
+                <div class="col border" id="e1">
+                    
+                </div>
+                <div class="col border" id="e2">
+                      
+                </div>
+                <div class="col border" id="e3">
+                      
+                </div>
+                <div class="col border" id="e4">
+                      
+                </div>
+                <div class="col border" id="e5">
+                      
+                </div>
+              
+            </div>
+            <div class="row mt-1">
+                <div class="col text-center">
+                    5
+                </div>
+                <div class="col text-center">
+                    4
+                </div>
+                <div class="col text-center">
+                    3
+                </div>
+                <div class="col text-center">
+                    2
+                </div>
+                <div class="col text-center">
+                    1
+                </div>            
+            </div>
+        </div>
+
+      <!-- Botones --> 
+      <div class="row mt-5 text-center">
+        <div class="col-3"></div>
+        <div class="col-3"><button class="btn btn-primary btn-lg" id="esperar"
+              onclick="ejecutarEsperar()">Esperar</button></div>
+        <div class="col-3"><button class="btn btn-success btn-lg" id="atender"
+              onclick="ejecutarAtender()">Atender</button></div>
+        <div class="col-3"></div>
+      </div>
+
+    </div>
+
+
+    <script src="sistema_turnos.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
